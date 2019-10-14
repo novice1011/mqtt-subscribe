@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
             "localhost", 1883,
             NULL, 60, true,
             NULL, NULL,
-            NULL, NULL);//im trying to understand
+            NULL, NULL);
 
     if(rc){
         printf("Error: %s\n", mosquitto_strerror(rc));
@@ -30,5 +30,3 @@ int main(int argc, char *argv[])
 
     return 0;
 }
-
-//this is thread
