@@ -16,4 +16,5 @@ link_directories(/home/omank/Manually_Installed/mosquitto-1.6.7/lib)
 target_link_libraries(${PROJECT_NAME} Qt5::Core
     -L/home/omank/Manually_Installed/mosquitto-1.6.7/lib
     -lmosquitto
+    -lpthread
     )
