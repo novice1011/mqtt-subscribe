@@ -1,8 +1,8 @@
 # MQTT Subscribe in C using libmosquitto
 
-This program use C language to communicate with MQTT protocol
-libmosquitto is the library being used
-this is based on single.c from libmosquitto example
+This program use C language to communicate with MQTT protocol. 
+libmosquitto is the library being used. 
+This is based on single.c from libmosquitto example
 
 NOTE: I'm using QT Creator, so you might want to edit the CMakeLists.txt little bit
 
