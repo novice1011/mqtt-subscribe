@@ -23,7 +23,9 @@ cd build
 7. configure your installation, you can change your prefix (installation folder) in this step, by default it is in  /usr/local/
 ```bash
 ccmake ..
+```
 8. make and install mosquitto, if you have 8 cores use -j8
+```bash
 make -j8
 make install
 sudo sh -c 'echo "<your_installation_directory>" > /etc/ld.so.conf.d/mosquitto-<your_mosquitto_version>.conf'
